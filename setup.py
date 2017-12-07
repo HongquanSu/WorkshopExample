@@ -3,9 +3,9 @@ from setuptools import setup, find_packages
 setup(name='WorkshopExample',
       version='0.0.1',
       description='Random example project for coding workshop',
-      url='http://github.com/aquansg/WorkshopExample',
+      url='http://github.com/Aquan/WorkshopExample',
       author='Hongquan Su',
-      author_email='aquansg@gmail.com',
+      author_email='Aquan@gmail.com',
       license='MIT',
       install_requires=['numpy'],
       packages=find_packages(exclude=('tests', 'doc', 'data'))
