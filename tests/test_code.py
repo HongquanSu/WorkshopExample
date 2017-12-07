@@ -16,4 +16,6 @@ def test_integrate_trapz_1():
 # exception, not the general Exception class.
 def test_integrate_trapz_failure():
     with pytest.raises(Exception):
+
+        
         integrate_trapz("Some", "Values")
